@@ -15,8 +15,8 @@ venue1 = Venue("Madison Square Garden", "New York City")
 venue2 = Venue("Wembley Stadium", "London")
 
 # Create instances of Concert
-concert1 = Concert("2024-07-15", band1, venue1)
-concert2 = Concert("2024-08-20", band2, venue2)
+concert1 = Concert("05-07-2024", band1, venue1)
+concert2 = Concert("31-12-2024", band2, venue2)
 
 # Test methods of Band class
 print("Band Name:", band1.name)  # Output: The Beatles
@@ -32,7 +32,7 @@ print("Concerts at Venue:", venue1.concerts())  # Output: [concert1]
 print("Bands at Venue:", venue1.bands())  # Output: [band1]
 
 # Test methods of Concert class
-print("Concert Date:", concert1.date)  # Output: 2024-07-15
+print("Concert Date:", concert1.date)  # Output: 05-07-2024
 print("Concert Band:", concert1.band)  # Output: Band object for The Beatles
 print("Concert Venue:", concert1.venue)  # Output: Venue object for Madison Square Garden
 print("Hometown Show:", concert1.hometown_show())  # Output: True
